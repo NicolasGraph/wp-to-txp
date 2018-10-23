@@ -82,7 +82,7 @@ Textpattern tags are easy to use and make themes really easy to read and modify.
 
 WordPress uses `has_` and `in_` prefixed functions to include conditional contents.
 
-```php
+```html
 <?php if ( in_category( '3' ) ) : ?>
     <div class="post-cat-three">
 <?php else : ?>
